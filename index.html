@@ -19,6 +19,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <style>
+        a.hov:hover {
+         background-color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,19 +34,22 @@
                 <img src="images/TEDxDAIICT_black_background.png" height="45px" style="margin-top:7px">
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#speaker">Speakers</a></li>
-                <li><a href="#venue">Venue</a></li>
-                <li><a href="#partners">Partners</a></li>
-                <li><a href="#organizers">Organizers</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="hov" href="#venue">Venue</a></li>
+                <li><a class="hov" href="#nominate">Suggest</a></li>
+                <li><a class="hov" href="#speaker">Past Speakers</a></li>
+                <li><a class="hov" href="#partners">Past Sponsors</a></li>
+                <li><a class="hov" href="#organizers">Meet the Team</a></li>
+                <li><a class="hov" href="#contact">Contact</a></li>
 
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#speaker">Speakers</a></li>
                 <li><a href="#venue">Venue</a></li>
-                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="#nominate">Suggest</a></li>
+                <li><a href="#speaker">Past Speakers</a></li>
+                <li><a href="#partners">Past Sponsors</a></li>
+                <li><a href="#organizers">Meet the team</a></li>
                 <li><a href="#contact">Contact</li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -52,9 +60,9 @@
             <li>
                 <img src="images/audience.jpg">
                 <div class="caption center-align">
-                    <h3 class="white-text">TEDxDAIICT 2016 Concluded</h3>
+                    <h3 class="white-text">Speaker Lineup Coming Soon! </h3>
                     <br>
-                    <a class="waves-effect waves-light btn red" href="https://www.facebook.com/tedxdaiict/" target="_blank">Photos</a>
+                    <a class="waves-effect waves-light btn red" href="https://www.facebook.com/tedxdaiict/" target="_blank">TEDxDAIICT 2016 Glimpses</a>
                 </div>
             </li>
             <li>
@@ -64,21 +72,77 @@
                     <h5 class="light grey-text text-lighten-3">TEDxDAIICT</h5>
                 </div>
             </li>
-            <!-- <li>
-                <img src="http://lorempixel.com/580/250/nature/3">
-                <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li> -->
-
         </ul>
     </div>
-    <div class="container" id="speakers">
-        <div class="section">
-            <h5>Speakers</h5>
-            <!-- <h6>To be announced</h6> -->
 
+
+
+    <div class="white section" id="venue">
+        <div class="container">
+            <div class="row" style="display: flex;justify-content: center;text-align: center;">
+                <div style="align-self: center">
+                    <h5 class="black-text">Venue</h5>
+                    <br>
+                    <h5 class="black-text">Dhirubhai Ambani</h5>
+                    <h5 class="black-text">Institute of Information and Communication Technology</h5>
+                    <br>
+                    <h6 class="black-text">Date: TBA</h6>
+                    <h6 class="black-text">Gandhinagar 382007</h6>
+                    <h6 class="black-text">Gujarat (India)</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="black section">
+        <div class="container">
+            <h5 class="red-text ">About TED and TEDx</h5>
+            <div class="row">
+                <p class="col l6 white-text justify-content">
+                    TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers
+                    and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
+                    Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+                    <br>
+                    <br> The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. The annual TEDGlobal conference will be held this October in Rio de Janeiro, Brazil. TED's
+                    media initiatives include TED.com, where new TED Talks are posted daily; the Open Translation Project, which provides subtitles and interactive transcripts as well as translations from volunteers worldwide; the educational initiative
+                    TED-Ed.
+                    <br>
+                </p>
+                <p class="col l6 white-text justify-content">
+                    TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized
+                    TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.<br><br>
+                    <b>About TEDx, x = independently organized event</b>
+                    <br> In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion
+                    and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject
+                    to certain rules and regulations.)
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+     <div class="black section" id="nominate">
+        <div class="container">
+            <div class="row" style="display: flex;justify-content: center;text-align: center;">
+                <div style="align-self: center">
+                    <h5 class="red-text">Speakers pool for TEDxDAIICT 2017 is open!</h5>
+                    <br /><br />
+                    <a class="waves-effect waves-light btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScoGMgZg1UEQrXEbcUg9-wHNuaKJNw4QYIG6YTrb9gdWyrngg/viewform?usp=sf_link" target="_blank">Suggest your Speaker</a>
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <br><br>
+    </div>
+    <div class="container" id="speaker">
+        <div class="section">
+            <h5>Past Speakers</h5>
+            <!-- <h6>To be announced</h6> -->
+            <hr class="divider">
+            <br>
             <div class="row">
                 <div class="col s4">
                     <div class="card">
@@ -291,27 +355,11 @@ Nilambari is an avid bibliophile and a knowledge seeker. During graduation in Po
         </div>
     </div>
 
-
-    <div class="black section" id="venue">
-        <div class="container">
-            <div class="row" style="display: flex;justify-content: center;text-align: center;">
-                <div style="align-self: center">
-                    <h5 class="grey-text">Venue</h5>
-                    <br>
-                    <h5 class="white-text">Dhirubhai Ambani</h5>
-                    <h5 class="white-text">Institute of Information and Communication Technology</h5>
-                    <br>
-                    <h6 class="white-text">21 February 2016</h6>
-                    <h6 class="grey-text">Gandhinagar 382007</h6>
-                    <h6 class="grey-text">Gujarat (India)</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="section" id="partners">
         <div class="container">
-            <h5 class="black-text">Partners</h5>
+            <h5 class="black-text">Past Sponsors</h5>
+            <hr class="divider">
+            <br>
             <div class="center">
                 <p class="grey-text">Gold Sponsor</p>
                 <img src="images/tcgl_logo_small.jpg" height="50%">
@@ -323,136 +371,13 @@ Nilambari is an avid bibliophile and a knowledge seeker. During graduation in Po
         </div>
     </div>
 
-    <div class="red section">
-        <div class="container">
-            <h5 class="white-text ">About TED and TEDx</h5>
-            <div class="row">
-                <p class="col l6 white-text justify-content">
-                    TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers
-                    and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
-                    Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
-                    <br>
-                    <br> The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. The annual TEDGlobal conference will be held this October in Rio de Janeiro, Brazil. TED's
-                    media initiatives include TED.com, where new TED Talks are posted daily; the Open Translation Project, which provides subtitles and interactive transcripts as well as translations from volunteers worldwide; the educational initiative
-                    TED-Ed.
-                    <br>
-                </p>
-                <p class="col l6 white-text justify-content">
-                    TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized
-                    TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.<br><br>
-                    <b>About TEDx, x = independently organized event</b>
-                    <br> In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion
-                    and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject
-                    to certain rules and regulations.)
-                    <br>
-                </p>
-            </div>
-        </div>
-    </div>
 
-    <div class="section" id="organizers">
+    <div class="transparent section" id="organizers">
         <div class="container">
-            <h5>Organizers</h5>
+            <h5>TEDxDAIICT 2017 Organizers</h5>
+            <hr class="divider">
             <br>
             <div class="row">
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/ankit.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Ankit Muchhala</h5>
-                                <h6 class="light">Co-organizer</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/rishab.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Rishabh Trivedi</h5>
-                                <h6 class="light">Organizer | License Holder</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/sahil.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Sahil Jain</h5>
-                                <h6 class="light">Co-organizer | Marketing</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/kushan.jpeg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Kushan Joshi</h5>
-                                <h6 class="light">Co-organizer | Designer</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/barkha.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Barkha Bhojak</h5>
-                                <h6 class="light">Co-organizer | Partnership</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/sharvi.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Sharvi Talati</h5>
-                                <h6 class="light">Co-organizer | Partnership</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="row valign-wrapper">
-                        <div class="valign col s3">
-                            <img src="images/samy.jpg" alt="" class="circle responsive-img">
-                            <!-- notice the "circle" class -->
-                        </div>
-                        <div class="valign col s9">
-                            <div>
-                                <h5 style="margin-top:0">Samriddhi Simlai</h5>
-                                <h6 class="light">Co-organizer | Curator</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col s12 m4">
                     <div class="row valign-wrapper">
                         <div class="valign col s3">
@@ -462,7 +387,95 @@ Nilambari is an avid bibliophile and a knowledge seeker. During graduation in Po
                         <div class="valign col s9">
                             <div>
                                 <h5 style="margin-top:0">Divyanshu Shekhar</h5>
-                                <h6 class="light">Co-organizer | Partnership</h6>
+                                <h6 class="light">Organizer | Licence Holder</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/nirvisha.jpg" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Nirvisha Mankad</h5>
+                                <h6 class="light">Co-organizer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/aalisha.jpg" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Aalisha Dalal</h5>
+                                <h6 class="light">Co-organizer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/aaditya1.JPG" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Aaditya Thakkar</h5>
+                                <h6 class="light">Co-organizer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/aarushi.jpg" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Aarushi Sanghani</h5>
+                                <h6 class="light">Co-organizer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/prakruti.jpeg" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Prakruti Joshi</h5>
+                                <h6 class="light">Co-organizer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col s12 m4">
+                    <div class="row valign-wrapper">
+                        <div class="valign col s3">
+                            <img src="images/labdhi.jpg" alt="" class="circle responsive-img">
+                            <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign col s9">
+                            <div>
+                                <h5 style="margin-top:0">Labdhi Shah</h5>
+                                <h6 class="light">Co-organizer</h6>
                             </div>
                         </div>
                     </div>
@@ -475,21 +488,21 @@ Nilambari is an avid bibliophile and a knowledge seeker. During graduation in Po
         <div class="container" id="contact">
             <div class="row">
                 <div class="col l8 s12">
-                    <h5 class="white-text">Contact</h5>
+                    <h5 class="red-text">Contact</h5>
                     <div class="valign-wrapper">
                         <i class="material-icons grey-text text-lighten-4">email</i>
                         <h6 class="grey-text text-lighten-4"> &nbsp;&nbsp;tedx.daiict@gmail.com</h6>
                     </div>
                     <div class="valign-wrapper">
                         <i class="material-icons grey-text text-lighten-4">phone</i>
-                        <h6 class="grey-text text-lighten-4"> &nbsp;&nbsp;+919924463029</h6>
+                        <h6 class="grey-text text-lighten-4"> &nbsp;&nbsp;+918128496516</h6>
                     </div>
                     <!-- <p class="grey-text text-lighten-4">tedx.daiict@gmail.com</p> -->
 
 
                 </div>
                 <div class="col l3 offset-l1 s12">
-                    <h5 class="white-text">Connect</h5>
+                    <h5 class="red-text">Connect</h5>
                     <ul style="display:flex;flex-direction:row;">
                         <li>
                             <a href="https://twitter.com/tedxdaiict" target="_blank">
